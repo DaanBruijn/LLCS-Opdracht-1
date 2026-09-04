@@ -63,7 +63,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54336ea2-d7c7-41dd-83f1-978adfe10ab2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Opdrachten/test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Opdrachten/test.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +91,9 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="3IoM65hwcqRa1IY8WYLtsLkGssb" />
+  <component name="ProjectStatusUIService">{
+  &quot;uiKindId&quot;: &quot;Widget&quot;
+}</component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -359,7 +365,7 @@
       <option name="presentableId" value="Default" />
       <updated>1788426289486</updated>
       <workItem from="1788426290665" duration="3324000" />
-      <workItem from="1788520091001" duration="1849000" />
+      <workItem from="1788520091001" duration="2601000" />
     </task>
     <servers />
   </component>
