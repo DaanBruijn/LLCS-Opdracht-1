@@ -1,11 +1,13 @@
 #include "imgui.h"
 #include "imgui-SFML.h"
-
 #include <SFML/Graphics.hpp>
 
-int main() {
+int main()
+{
     sf::RenderWindow window;
-    window.create(sf::VideoMode({ 1280, 720 }), "My window");
+
+    window.create(sf::VideoMode({1280, 720}),"Opdracht 1");
+
     window.setFramerateLimit(60);
     window.setVerticalSyncEnabled(true);
 
@@ -13,29 +15,28 @@ int main() {
         return -1;
 
     sf::Clock deltaClock;
+
     while (window.isOpen())
     {
-        // Event Polling
         while (const std::optional event = window.pollEvent())
         {
             ImGui::SFML::ProcessEvent(window, *event);
-
-            // "close requested" event: we close the window
             if (event->is<sf::Event::Closed>())
                 window.close();
         }
 
-        // Update
+        // - Update
         ImGui::SFML::Update(window, deltaClock.restart());
+
+
         ImGui::ShowDemoWindow();
 
-        // Render
+        // - Render
         window.clear(sf::Color::Cyan);
-
         ImGui::SFML::Render(window);
-
         window.display();
     }
 
-	return 0;
+    ImGui::SFML::Shutdown();
+    return 0;
 }
