@@ -34,7 +34,7 @@ int main()
         test.update();
 
         // - Render
-        window.clear(sf::Color::Cyan);
+        window.clear(sf::Color::Black);
         test.render(window);
 
         ImGui::SFML::Render(window);
